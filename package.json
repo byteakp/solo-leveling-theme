@@ -1,0 +1,35 @@
+{
+    "name": "solo-leveling-theme",
+    "displayName": "Solo Leveling Theme",
+    "description": "A dark, glassy VS Code theme inspired by Solo Leveling anime with neon blue, purple, and crimson highlights",
+    "version": "0.1.0",
+    "publisher": "your-publisher-name",
+    "engines": {
+      "vscode": "^1.1.0"
+    },
+    "categories": [
+      "Themes"
+    ],
+    "contributes": {
+      "themes": [
+        {
+          "label": "Solo Leveling",
+          "uiTheme": "vs-dark",
+          "path": "./themes/solo-leveling-color-theme.json"
+        }
+      ]
+    },
+    "keywords": [
+      "theme",
+      "dark theme",
+      "solo leveling",
+      "anime",
+      "neon",
+      "glass"
+    ],
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/losercodes/solo-leveling-theme"
+    },
+    "icon": "icon.png"
+  }
